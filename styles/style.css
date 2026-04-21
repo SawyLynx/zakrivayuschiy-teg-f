@@ -350,8 +350,10 @@
   }
 
   .content__card-paragraph {
-    margin: 25px;
-    line-height: 21px;
+    margin: 6.5vw;
+    line-height: 116%;
+    gap: 6.3vw;
+    padding: 0.3vw;
   }
 
   .content {
@@ -361,11 +363,6 @@
   .content__card-title {
     margin: 1% 2.8%;
     line-height: 120%;
-  }
-
-  .content__card-paragraph {
-    gap: 6vw;
-    padding: 0.3vw;
   }
 
   .save-button {
