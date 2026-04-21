@@ -1,1 +1,26 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --press-start-2p: "PressStart2P";
+  --inter: "Inter";
+  --text-color: #000;
+  --animation-strock-color: var(--text-color);
+  --animation-fill-color: #f00;
+  --main-text-weight: 410;
+  --card-title-weight: 715;
+  --bg-gradient: repeating-linear-gradient(
+      to right,
+      #d3d3d3,
+      #d3d3d3 1px,
+      transparent 1px,
+      transparent 2px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #d3d3d3,
+      #d3d3d3 1px,
+      transparent 1px,
+      transparent 2px
+    ),
+    linear-gradient(#e7e7e7 0.01%, #e7e7e7, #1a1a1a);
+  --content-width: clamp(375px, 36.55vw, 900px);
+}
