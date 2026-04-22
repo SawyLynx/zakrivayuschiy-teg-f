@@ -1,7 +1,8 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --press-start-2p: "PressStart2P";
-  --inter: "Inter";
+  --accent-font: "PressStart2P";
+  --common-font: "Inter";
+  --page-color: #fff;
   --text-color: #000;
   --animation-strock-color: var(--text-color);
   --animation-fill-color: #f00;
@@ -22,5 +23,5 @@
       transparent 2px
     ),
     linear-gradient(#e7e7e7 0.01%, #e7e7e7, #1a1a1a);
-  --content-width: clamp(375px, 36.55vw, 900px);
+  --content-width: clamp(375px, 76.55vw, 700px);
 }

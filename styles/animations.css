@@ -24,6 +24,6 @@
 
 @keyframes sparks-animation {
   to {
-    color: var(--animation-fill-color);
+    opacity: 1;
   }
 }
