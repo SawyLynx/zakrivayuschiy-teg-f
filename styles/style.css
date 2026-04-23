@@ -70,11 +70,12 @@
 
 .card__image-container {
   position: relative;
+  border-top: 2px solid var(--text-color);
+  border-bottom: 2px solid var(--text-color);
+  block-size: clamp(371px, 100vh, 704px);
 }
 
 .card__image {
-  border-top: 2px solid var(--text-color);
-  border-bottom: 2px solid var(--text-color);
   object-fit: cover;
   inline-size: 100%;
 }
@@ -265,11 +266,11 @@
   transform-origin: left;
   inline-size: 100%;
   mix-blend-mode: difference;
+  block-size: 100%;
 }
 
 .text-button:hover::before {
   transform: scale(1);
-  block-size: 100%;
 }
 
 .dialog {
@@ -304,8 +305,6 @@
 
 .dialog__button {
   grid-column: span 2;
-  font-family: var(--accent-font), fantasy;
-  font-size: 14px;
   block-size: 38px;
 }
 
@@ -346,6 +345,10 @@
   .content__card-title {
     margin: 1% 2.8%;
     line-height: 120%;
+  }
+
+  .card__image-container {
+    block-size: clamp(377px, 5vh, 704px);
   }
 
   .save-button {
